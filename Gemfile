@@ -14,6 +14,10 @@ gem 'sass-rails'
 gem 'turbolinks'
 gem 'uglifier'
 
+# Authentication
+gem 'devise'
+gem 'omniauth-twitter'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'factory_bot_rails'
@@ -29,7 +33,9 @@ group :development do
   gem 'binding_of_caller'
   gem 'listen'
   gem 'rubocop', require: false
+  gem 'rubocop-performance', require: false
   gem 'rubocop-rails', require: false
+  gem 'rubocop-rspec'
   gem 'spring'
   gem 'spring-watcher-listen'
   gem 'web-console'
