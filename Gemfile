@@ -14,6 +14,10 @@ gem 'sass-rails'
 gem 'turbolinks'
 gem 'uglifier'
 
+# Authentication
+gem 'devise'
+gem 'omniauth-twitter'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'factory_bot_rails'
